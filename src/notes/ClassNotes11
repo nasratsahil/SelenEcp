@@ -4,3 +4,21 @@ Upload Documents:
 In order to upload documents using Selenium we can simply do sendKeys(filePath)
 
 If sendKeys does not work, you can use Robot class
+
+JS executor
+It is a library in selenium which can be executed in different programming languages
+(java, c#, python etc)
+
+JSExecutor is an Interface
+
+We should only be using JSexecutor when we are not able to perform actions such as:
+Click on elements
+scroll the page
+refresh the page
+highlight an element
+scroll to a specific element
+open a new tab
+
+IQ:
+How do you switch to a new tab in selenium?
+We use getWindowHandles to switch between tabs and windows
