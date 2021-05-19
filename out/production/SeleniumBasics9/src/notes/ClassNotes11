@@ -1,0 +1,6 @@
+Class 11
+
+Upload Documents:
+In order to upload documents using Selenium we can simply do sendKeys(filePath)
+
+If sendKeys does not work, you can use Robot class
