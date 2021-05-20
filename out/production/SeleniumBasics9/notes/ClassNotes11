@@ -18,3 +18,16 @@ refresh the page
 highlight an element
 scroll to a specific element
 open a new tab
+
+What is POM?
+POM is a design pattern which helps us to enhance our test maintenance and reduce code duplication
+
+POM can be implemented in 2 ways:
+1. POM without PageFactory
+2. POM with PageFactory
+
+PageFactory is a class which gives us an opportunity to interact with elements stored in each page class
+
+IQ:
+How do you switch to a new tab in selenium?
+We use getWindowHandles to switch between tabs and windows
